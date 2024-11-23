@@ -1,9 +1,8 @@
-[CMIT382 Project 2 Template.docx](https://github.com/user-attachments/files/17877686/CMIT382.Project.2.Template.docx)
-# active-directory-azure-ad-connect
+# Active Directory and Azure AD Connect
 
-**Project Overview**
+## Project Overview
 
-This project demonstrates configuring a hybrid identity environment by synchronizing an on-premises Active Directory with Azure Active Directory using Azure AD Connect.
+This project demonstrates the configuration of a hybrid identity environment by integrating on-premises Active Directory with Azure Active Directory using Azure AD Connect. It provides users with seamless access to resources across Microsoft 365 and on-premises environments by synchronizing identities. The project involves setting up a Windows Server 2022 Active Directory forest, configuring Azure AD Connect for synchronization.
 
 **Tools Used**
 
@@ -28,7 +27,7 @@ Troubleshooting Azure AD Connect synchronization.
 
 **Steps Included**
 
-Install Windows Server 2022 and set up Active Directory.
+Configured and installed Windows Server 2022 with Standard Desktop Experience.
 
 ![image](https://github.com/user-attachments/assets/e9d0d504-3c03-4aff-8c87-3b0c50bac4fb)
 
@@ -39,7 +38,7 @@ Install Windows Server 2022 and set up Active Directory.
 ![image](https://github.com/user-attachments/assets/0c6489a3-f9e3-47e3-b019-4a8eb57afe04)
 
 
-Rename the server and join it to the domain.
+Renamed the server and join it to the domain.
 
 
 ![image](https://github.com/user-attachments/assets/3f7a3d13-7ed0-4015-a3a2-78d82b0128ed)
@@ -47,7 +46,7 @@ Rename the server and join it to the domain.
 ![image](https://github.com/user-attachments/assets/4fb5ef17-60e5-4e2d-808e-f5b862dfa051)
 
 
-Create user accounts using PowerShell.
+Created and verified 10 user accounts via PowerShell automation.
 
 ![image](https://github.com/user-attachments/assets/b8a49f85-c45f-4480-9fbe-7c844069d97d)
 
@@ -58,7 +57,8 @@ Create user accounts using PowerShell.
 ![image](https://github.com/user-attachments/assets/f784a951-8a13-472f-a160-53832055d7d4)
 
 
-Configure Azure AD Connect to sync accounts to Azure AD.
+Configured Azure AD Connect to sync on-premises user accounts with Azure AD.
+
 
 ![image](https://github.com/user-attachments/assets/3c79a587-b259-4687-ae18-983d149b2da8)
 
